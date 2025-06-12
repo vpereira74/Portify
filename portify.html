@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portify Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Portify</h1>
+    <p>Generate your portfolio by entering your info below:</p>
+
+    <input type="text" id="name" placeholder="Full Name" />
+    <input type="text" id="title" placeholder="Title (e.g., Frontend Developer)" />
+    <textarea id="bio" placeholder="Short Bio"></textarea>
+    <input type="text" id="github" placeholder="GitHub Username" />
+    <input type="text" id="linkedin" placeholder="LinkedIn URL" />
+    <button onclick="generatePortfolio()">Generate</button>
+
+    <hr/>
+    <div id="preview">
+      <!-- Portfolio Preview -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
